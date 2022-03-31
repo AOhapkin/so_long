@@ -1,16 +1,17 @@
 # so_long
 Простая 2D игра на библиотеке mlx, в которой дельфин сбегает с Земли после поедания рыбы.
 
-Название программы: `so_long`
+Название программы: `so_long`.
+
 Разрешенные файлы: Makefile, *.h, *.c, maps
+
 Makefile: NAME, all, clean, fclean, re
-Разрешенные функции: 	- open, close, read, write,
-						malloc, free, perror,
-						strerror, exit
-						- все функции библиотеки math
-						(-lm compiler option, man man 3 math)
-						- все функции библиотеки MiniLibX
-						- свои функции из библиотеки libft
+
+Разрешенные функции: 
+- open, close, read, write, malloc, free, perror, strerror, exit;
+- все функции библиотеки `math` (-lm compiler option, man man 3 math)
+- все функции библиотеки `MiniLibX`
+- свои функции из библиотеки [libft](https://github.com/AOhapkin/libft)
 
 Программа принимае как параметр файл `.ber`
 
