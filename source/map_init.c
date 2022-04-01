@@ -1,6 +1,6 @@
 #include "so_long.h"
 
-void	get_map_height(t_game *game)
+void	map_rows(t_game *game)
 {
 	int		fd;
 	int		bytes_read;
@@ -47,22 +47,54 @@ void	map_build(t_game *game)
 	close(fd);
 }
 
-void	map_reset(t_map *map)
+void	map_snapshot(t_game *game)
 {
-	map->grid_initial = 0;
-	map->grid_current = 0;
-	map->map_file = NULL;
-	map->height = 0;
-	map->width = 0;
-	map->players = 0;
-	map->collectibles = 0;
-	map->exits = 0;
+	int	size;
+
+	size = game->map.rows;
+	game->map.snapshot = malloc(sizeof(char *) * (size + 1));
+	if (!game->map.snapshot)
+		game_error(ERR_MALLOC_FAIL, game);
+	game->map.snapshot[size] = 0;
+	while (size--)
+		game->map.snapshot[size] = ft_strdup(game->map.tiles[size]);
 }
 
-void	init_map(char *file_path, t_game *game)
+void	map_free(t_game *game)
 {
-	map_reset(&game->map);
-	get_map_height(game);
+	int	i;
+
+	i = 0;
+	if (game->map.tiles)
+	{
+		while (i < game->map.rows)
+			free(game->map.tiles[i++]);
+		free(game->map.tiles);
+	}
+	game->map.tiles = 0;
+	i = 0;
+	if (game->map.snapshot)
+	{
+		while (i < game->map.rows)
+			free(game->map.snapshot[i++]);
+		free(game->map.snapshot);
+	}
+	game->map.snapshot = 0;
+}
+
+void	map_init(char *path, t_game *game)
+{
+	game->map.tiles = 0;
+	game->map.snapshot = 0;
+	game->map.path = path;
+	game->map.rows = 0;
+	game->map.cols = 0;
+	game->map.players = 0;
+	game->map.collectibles = 0;
+	game->map.exits = 0;
+	map_rows(game);
 	map_build(game);
-	validate_map(game);
+	map_verify_wall(game);
+	map_verify_charset(game);
+	map_verify_components(game);
 }
