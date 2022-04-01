@@ -78,8 +78,6 @@ build CMakeFiles/so_long.dir/libft/ft_atoi.c.o: C_COMPILER__so_long_Debug /Users
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_bzero.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_bzero.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_bzero.c.o.d
@@ -87,8 +85,6 @@ build CMakeFiles/so_long.dir/libft/ft_bzero.c.o: C_COMPILER__so_long_Debug /User
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_calloc.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_calloc.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_calloc.c.o.d
@@ -96,8 +92,6 @@ build CMakeFiles/so_long.dir/libft/ft_calloc.c.o: C_COMPILER__so_long_Debug /Use
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_isalnum.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_isalnum.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_isalnum.c.o.d
@@ -105,8 +99,6 @@ build CMakeFiles/so_long.dir/libft/ft_isalnum.c.o: C_COMPILER__so_long_Debug /Us
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_isalpha.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_isalpha.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_isalpha.c.o.d
@@ -114,8 +106,6 @@ build CMakeFiles/so_long.dir/libft/ft_isalpha.c.o: C_COMPILER__so_long_Debug /Us
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_isascii.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_isascii.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_isascii.c.o.d
@@ -123,8 +113,6 @@ build CMakeFiles/so_long.dir/libft/ft_isascii.c.o: C_COMPILER__so_long_Debug /Us
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_isdigit.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_isdigit.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_isdigit.c.o.d
@@ -132,8 +120,6 @@ build CMakeFiles/so_long.dir/libft/ft_isdigit.c.o: C_COMPILER__so_long_Debug /Us
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_isnegative.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_isnegative.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_isnegative.c.o.d
@@ -141,8 +127,6 @@ build CMakeFiles/so_long.dir/libft/ft_isnegative.c.o: C_COMPILER__so_long_Debug 
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_isprint.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_isprint.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_isprint.c.o.d
@@ -150,8 +134,6 @@ build CMakeFiles/so_long.dir/libft/ft_isprint.c.o: C_COMPILER__so_long_Debug /Us
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_isspace.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_isspace.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_isspace.c.o.d
@@ -159,8 +141,6 @@ build CMakeFiles/so_long.dir/libft/ft_isspace.c.o: C_COMPILER__so_long_Debug /Us
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_itoa.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_itoa.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_itoa.c.o.d
@@ -168,8 +148,6 @@ build CMakeFiles/so_long.dir/libft/ft_itoa.c.o: C_COMPILER__so_long_Debug /Users
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_lstadd_back.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_lstadd_back.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_lstadd_back.c.o.d
@@ -177,8 +155,6 @@ build CMakeFiles/so_long.dir/libft/ft_lstadd_back.c.o: C_COMPILER__so_long_Debug
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_lstadd_front.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_lstadd_front.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_lstadd_front.c.o.d
@@ -186,8 +162,6 @@ build CMakeFiles/so_long.dir/libft/ft_lstadd_front.c.o: C_COMPILER__so_long_Debu
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_lstclear.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_lstclear.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_lstclear.c.o.d
@@ -195,8 +169,6 @@ build CMakeFiles/so_long.dir/libft/ft_lstclear.c.o: C_COMPILER__so_long_Debug /U
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_lstdelone.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_lstdelone.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_lstdelone.c.o.d
@@ -204,8 +176,6 @@ build CMakeFiles/so_long.dir/libft/ft_lstdelone.c.o: C_COMPILER__so_long_Debug /
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_lstiter.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_lstiter.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_lstiter.c.o.d
@@ -213,8 +183,6 @@ build CMakeFiles/so_long.dir/libft/ft_lstiter.c.o: C_COMPILER__so_long_Debug /Us
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_lstlast.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_lstlast.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_lstlast.c.o.d
@@ -222,8 +190,6 @@ build CMakeFiles/so_long.dir/libft/ft_lstlast.c.o: C_COMPILER__so_long_Debug /Us
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_lstmap.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_lstmap.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_lstmap.c.o.d
@@ -231,8 +197,6 @@ build CMakeFiles/so_long.dir/libft/ft_lstmap.c.o: C_COMPILER__so_long_Debug /Use
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_lstnew.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_lstnew.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_lstnew.c.o.d
@@ -240,8 +204,6 @@ build CMakeFiles/so_long.dir/libft/ft_lstnew.c.o: C_COMPILER__so_long_Debug /Use
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_lstsize.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_lstsize.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_lstsize.c.o.d
@@ -249,8 +211,6 @@ build CMakeFiles/so_long.dir/libft/ft_lstsize.c.o: C_COMPILER__so_long_Debug /Us
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_memalloc.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_memalloc.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_memalloc.c.o.d
@@ -258,8 +218,6 @@ build CMakeFiles/so_long.dir/libft/ft_memalloc.c.o: C_COMPILER__so_long_Debug /U
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_memchr.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_memchr.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_memchr.c.o.d
@@ -267,8 +225,6 @@ build CMakeFiles/so_long.dir/libft/ft_memchr.c.o: C_COMPILER__so_long_Debug /Use
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_memcmp.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_memcmp.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_memcmp.c.o.d
@@ -276,8 +232,6 @@ build CMakeFiles/so_long.dir/libft/ft_memcmp.c.o: C_COMPILER__so_long_Debug /Use
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_memcpy.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_memcpy.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_memcpy.c.o.d
@@ -285,8 +239,6 @@ build CMakeFiles/so_long.dir/libft/ft_memcpy.c.o: C_COMPILER__so_long_Debug /Use
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_memmove.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_memmove.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_memmove.c.o.d
@@ -294,8 +246,6 @@ build CMakeFiles/so_long.dir/libft/ft_memmove.c.o: C_COMPILER__so_long_Debug /Us
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_memset.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_memset.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_memset.c.o.d
@@ -303,8 +253,6 @@ build CMakeFiles/so_long.dir/libft/ft_memset.c.o: C_COMPILER__so_long_Debug /Use
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_newstr.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_newstr.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_newstr.c.o.d
@@ -312,8 +260,6 @@ build CMakeFiles/so_long.dir/libft/ft_newstr.c.o: C_COMPILER__so_long_Debug /Use
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_putchar_fd.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_putchar_fd.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_putchar_fd.c.o.d
@@ -321,8 +267,6 @@ build CMakeFiles/so_long.dir/libft/ft_putchar_fd.c.o: C_COMPILER__so_long_Debug 
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_putendl_fd.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_putendl_fd.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_putendl_fd.c.o.d
@@ -330,8 +274,6 @@ build CMakeFiles/so_long.dir/libft/ft_putendl_fd.c.o: C_COMPILER__so_long_Debug 
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_putnbr_fd.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_putnbr_fd.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_putnbr_fd.c.o.d
@@ -339,8 +281,6 @@ build CMakeFiles/so_long.dir/libft/ft_putnbr_fd.c.o: C_COMPILER__so_long_Debug /
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_putstr_fd.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_putstr_fd.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_putstr_fd.c.o.d
@@ -348,8 +288,6 @@ build CMakeFiles/so_long.dir/libft/ft_putstr_fd.c.o: C_COMPILER__so_long_Debug /
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_split.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_split.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_split.c.o.d
@@ -357,8 +295,6 @@ build CMakeFiles/so_long.dir/libft/ft_split.c.o: C_COMPILER__so_long_Debug /User
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_strchr.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_strchr.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_strchr.c.o.d
@@ -366,8 +302,6 @@ build CMakeFiles/so_long.dir/libft/ft_strchr.c.o: C_COMPILER__so_long_Debug /Use
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_strdup.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_strdup.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_strdup.c.o.d
@@ -375,8 +309,6 @@ build CMakeFiles/so_long.dir/libft/ft_strdup.c.o: C_COMPILER__so_long_Debug /Use
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_striteri.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_striteri.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_striteri.c.o.d
@@ -384,8 +316,6 @@ build CMakeFiles/so_long.dir/libft/ft_striteri.c.o: C_COMPILER__so_long_Debug /U
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_strjoin.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_strjoin.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_strjoin.c.o.d
@@ -393,8 +323,6 @@ build CMakeFiles/so_long.dir/libft/ft_strjoin.c.o: C_COMPILER__so_long_Debug /Us
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_strlcat.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_strlcat.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_strlcat.c.o.d
@@ -402,8 +330,6 @@ build CMakeFiles/so_long.dir/libft/ft_strlcat.c.o: C_COMPILER__so_long_Debug /Us
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_strlcpy.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_strlcpy.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_strlcpy.c.o.d
@@ -411,8 +337,6 @@ build CMakeFiles/so_long.dir/libft/ft_strlcpy.c.o: C_COMPILER__so_long_Debug /Us
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_strlen.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_strlen.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_strlen.c.o.d
@@ -420,8 +344,6 @@ build CMakeFiles/so_long.dir/libft/ft_strlen.c.o: C_COMPILER__so_long_Debug /Use
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_strmapi.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_strmapi.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_strmapi.c.o.d
@@ -429,8 +351,6 @@ build CMakeFiles/so_long.dir/libft/ft_strmapi.c.o: C_COMPILER__so_long_Debug /Us
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_strncmp.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_strncmp.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_strncmp.c.o.d
@@ -438,8 +358,6 @@ build CMakeFiles/so_long.dir/libft/ft_strncmp.c.o: C_COMPILER__so_long_Debug /Us
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_strnstr.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_strnstr.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_strnstr.c.o.d
@@ -447,8 +365,6 @@ build CMakeFiles/so_long.dir/libft/ft_strnstr.c.o: C_COMPILER__so_long_Debug /Us
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_strrchr.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_strrchr.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_strrchr.c.o.d
@@ -456,8 +372,6 @@ build CMakeFiles/so_long.dir/libft/ft_strrchr.c.o: C_COMPILER__so_long_Debug /Us
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_strtrim.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_strtrim.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_strtrim.c.o.d
@@ -465,8 +379,6 @@ build CMakeFiles/so_long.dir/libft/ft_strtrim.c.o: C_COMPILER__so_long_Debug /Us
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_substr.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_substr.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_substr.c.o.d
@@ -474,8 +386,6 @@ build CMakeFiles/so_long.dir/libft/ft_substr.c.o: C_COMPILER__so_long_Debug /Use
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_tolower.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_tolower.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_tolower.c.o.d
@@ -483,8 +393,6 @@ build CMakeFiles/so_long.dir/libft/ft_tolower.c.o: C_COMPILER__so_long_Debug /Us
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/libft/ft_toupper.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/libft/ft_toupper.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/libft/ft_toupper.c.o.d
@@ -492,8 +400,6 @@ build CMakeFiles/so_long.dir/libft/ft_toupper.c.o: C_COMPILER__so_long_Debug /Us
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/libft
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/mlx/font.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/mlx/font.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/mlx/font.c.o.d
@@ -501,8 +407,6 @@ build CMakeFiles/so_long.dir/mlx/font.c.o: C_COMPILER__so_long_Debug /Users/bbeg
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/mlx/mlx_init_loop.m.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/mlx/mlx_init_loop.m || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/mlx/mlx_init_loop.m.o.d
@@ -510,8 +414,6 @@ build CMakeFiles/so_long.dir/mlx/mlx_init_loop.m.o: C_COMPILER__so_long_Debug /U
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/mlx/mlx_int_str_to_wordtab.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/mlx/mlx_int_str_to_wordtab.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/mlx/mlx_int_str_to_wordtab.c.o.d
@@ -519,8 +421,6 @@ build CMakeFiles/so_long.dir/mlx/mlx_int_str_to_wordtab.c.o: C_COMPILER__so_long
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/mlx/mlx_mouse.m.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/mlx/mlx_mouse.m || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/mlx/mlx_mouse.m.o.d
@@ -528,8 +428,6 @@ build CMakeFiles/so_long.dir/mlx/mlx_mouse.m.o: C_COMPILER__so_long_Debug /Users
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/mlx/mlx_new_image.m.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/mlx/mlx_new_image.m || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/mlx/mlx_new_image.m.o.d
@@ -537,8 +435,6 @@ build CMakeFiles/so_long.dir/mlx/mlx_new_image.m.o: C_COMPILER__so_long_Debug /U
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/mlx/mlx_new_window.m.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/mlx/mlx_new_window.m || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/mlx/mlx_new_window.m.o.d
@@ -546,8 +442,6 @@ build CMakeFiles/so_long.dir/mlx/mlx_new_window.m.o: C_COMPILER__so_long_Debug /
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/mlx/mlx_opengl.m.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/mlx/mlx_opengl.m || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/mlx/mlx_opengl.m.o.d
@@ -555,8 +449,6 @@ build CMakeFiles/so_long.dir/mlx/mlx_opengl.m.o: C_COMPILER__so_long_Debug /User
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/mlx/mlx_png.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/mlx/mlx_png.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/mlx/mlx_png.c.o.d
@@ -564,8 +456,6 @@ build CMakeFiles/so_long.dir/mlx/mlx_png.c.o: C_COMPILER__so_long_Debug /Users/b
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/mlx/mlx_rgb.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/mlx/mlx_rgb.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/mlx/mlx_rgb.c.o.d
@@ -573,8 +463,6 @@ build CMakeFiles/so_long.dir/mlx/mlx_rgb.c.o: C_COMPILER__so_long_Debug /Users/b
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/mlx/mlx_shaders.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/mlx/mlx_shaders.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/mlx/mlx_shaders.c.o.d
@@ -582,8 +470,6 @@ build CMakeFiles/so_long.dir/mlx/mlx_shaders.c.o: C_COMPILER__so_long_Debug /Use
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/mlx/mlx_xpm.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/mlx/mlx_xpm.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/mlx/mlx_xpm.c.o.d
@@ -591,8 +477,6 @@ build CMakeFiles/so_long.dir/mlx/mlx_xpm.c.o: C_COMPILER__so_long_Debug /Users/b
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
 build CMakeFiles/so_long.dir/source/so_long.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/source/so_long.c || cmake_object_order_depends_target_so_long
   DEP_FILE = CMakeFiles/so_long.dir/source/so_long.c.o.d
@@ -600,17 +484,27 @@ build CMakeFiles/so_long.dir/source/so_long.c.o: C_COMPILER__so_long_Debug /User
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/source
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
 
-build CMakeFiles/so_long.dir/source/utils.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/source/utils.c || cmake_object_order_depends_target_so_long
-  DEP_FILE = CMakeFiles/so_long.dir/source/utils.c.o.d
+build CMakeFiles/so_long.dir/source/map_init.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/source/map_init.c || cmake_object_order_depends_target_so_long
+  DEP_FILE = CMakeFiles/so_long.dir/source/map_init.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu11
   INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
   OBJECT_DIR = CMakeFiles/so_long.dir
   OBJECT_FILE_DIR = CMakeFiles/so_long.dir/source
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
-  TARGET_PDB = so_long.pdb
+
+build CMakeFiles/so_long.dir/source/map_validate.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/source/map_validate.c || cmake_object_order_depends_target_so_long
+  DEP_FILE = CMakeFiles/so_long.dir/source/map_validate.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu11
+  INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
+  OBJECT_DIR = CMakeFiles/so_long.dir
+  OBJECT_FILE_DIR = CMakeFiles/so_long.dir/source
+
+build CMakeFiles/so_long.dir/source/game_utils.c.o: C_COMPILER__so_long_Debug /Users/bbeggar/Desktop/so_long/source/game_utils.c || cmake_object_order_depends_target_so_long
+  DEP_FILE = CMakeFiles/so_long.dir/source/game_utils.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu11
+  INCLUDES = -I/Users/bbeggar/Desktop/so_long/includes -I/Users/bbeggar/Desktop/so_long/libft -I/Users/bbeggar/Desktop/so_long/mlx
+  OBJECT_DIR = CMakeFiles/so_long.dir
+  OBJECT_FILE_DIR = CMakeFiles/so_long.dir/source
 
 
 # =============================================================================
@@ -620,14 +514,13 @@ build CMakeFiles/so_long.dir/source/utils.c.o: C_COMPILER__so_long_Debug /Users/
 #############################################
 # Link the executable so_long
 
-build so_long: C_EXECUTABLE_LINKER__so_long_Debug CMakeFiles/so_long.dir/libft/ft_atoi.c.o CMakeFiles/so_long.dir/libft/ft_bzero.c.o CMakeFiles/so_long.dir/libft/ft_calloc.c.o CMakeFiles/so_long.dir/libft/ft_isalnum.c.o CMakeFiles/so_long.dir/libft/ft_isalpha.c.o CMakeFiles/so_long.dir/libft/ft_isascii.c.o CMakeFiles/so_long.dir/libft/ft_isdigit.c.o CMakeFiles/so_long.dir/libft/ft_isnegative.c.o CMakeFiles/so_long.dir/libft/ft_isprint.c.o CMakeFiles/so_long.dir/libft/ft_isspace.c.o CMakeFiles/so_long.dir/libft/ft_itoa.c.o CMakeFiles/so_long.dir/libft/ft_lstadd_back.c.o CMakeFiles/so_long.dir/libft/ft_lstadd_front.c.o CMakeFiles/so_long.dir/libft/ft_lstclear.c.o CMakeFiles/so_long.dir/libft/ft_lstdelone.c.o CMakeFiles/so_long.dir/libft/ft_lstiter.c.o CMakeFiles/so_long.dir/libft/ft_lstlast.c.o CMakeFiles/so_long.dir/libft/ft_lstmap.c.o CMakeFiles/so_long.dir/libft/ft_lstnew.c.o CMakeFiles/so_long.dir/libft/ft_lstsize.c.o CMakeFiles/so_long.dir/libft/ft_memalloc.c.o CMakeFiles/so_long.dir/libft/ft_memchr.c.o CMakeFiles/so_long.dir/libft/ft_memcmp.c.o CMakeFiles/so_long.dir/libft/ft_memcpy.c.o CMakeFiles/so_long.dir/libft/ft_memmove.c.o CMakeFiles/so_long.dir/libft/ft_memset.c.o CMakeFiles/so_long.dir/libft/ft_newstr.c.o CMakeFiles/so_long.dir/libft/ft_putchar_fd.c.o CMakeFiles/so_long.dir/libft/ft_putendl_fd.c.o CMakeFiles/so_long.dir/libft/ft_putnbr_fd.c.o CMakeFiles/so_long.dir/libft/ft_putstr_fd.c.o CMakeFiles/so_long.dir/libft/ft_split.c.o CMakeFiles/so_long.dir/libft/ft_strchr.c.o CMakeFiles/so_long.dir/libft/ft_strdup.c.o CMakeFiles/so_long.dir/libft/ft_striteri.c.o CMakeFiles/so_long.dir/libft/ft_strjoin.c.o CMakeFiles/so_long.dir/libft/ft_strlcat.c.o CMakeFiles/so_long.dir/libft/ft_strlcpy.c.o CMakeFiles/so_long.dir/libft/ft_strlen.c.o CMakeFiles/so_long.dir/libft/ft_strmapi.c.o CMakeFiles/so_long.dir/libft/ft_strncmp.c.o CMakeFiles/so_long.dir/libft/ft_strnstr.c.o CMakeFiles/so_long.dir/libft/ft_strrchr.c.o CMakeFiles/so_long.dir/libft/ft_strtrim.c.o CMakeFiles/so_long.dir/libft/ft_substr.c.o CMakeFiles/so_long.dir/libft/ft_tolower.c.o CMakeFiles/so_long.dir/libft/ft_toupper.c.o CMakeFiles/so_long.dir/mlx/font.c.o CMakeFiles/so_long.dir/mlx/mlx_init_loop.m.o CMakeFiles/so_long.dir/mlx/mlx_int_str_to_wordtab.c.o CMakeFiles/so_long.dir/mlx/mlx_mouse.m.o CMakeFiles/so_long.dir/mlx/mlx_new_image.m.o CMakeFiles/so_long.dir/mlx/mlx_new_window.m.o CMakeFiles/so_long.dir/mlx/mlx_opengl.m.o CMakeFiles/so_long.dir/mlx/mlx_png.c.o CMakeFiles/so_long.dir/mlx/mlx_rgb.c.o CMakeFiles/so_long.dir/mlx/mlx_shaders.c.o CMakeFiles/so_long.dir/mlx/mlx_xpm.c.o CMakeFiles/so_long.dir/source/so_long.c.o CMakeFiles/so_long.dir/source/utils.c.o
+build so_long: C_EXECUTABLE_LINKER__so_long_Debug CMakeFiles/so_long.dir/libft/ft_atoi.c.o CMakeFiles/so_long.dir/libft/ft_bzero.c.o CMakeFiles/so_long.dir/libft/ft_calloc.c.o CMakeFiles/so_long.dir/libft/ft_isalnum.c.o CMakeFiles/so_long.dir/libft/ft_isalpha.c.o CMakeFiles/so_long.dir/libft/ft_isascii.c.o CMakeFiles/so_long.dir/libft/ft_isdigit.c.o CMakeFiles/so_long.dir/libft/ft_isnegative.c.o CMakeFiles/so_long.dir/libft/ft_isprint.c.o CMakeFiles/so_long.dir/libft/ft_isspace.c.o CMakeFiles/so_long.dir/libft/ft_itoa.c.o CMakeFiles/so_long.dir/libft/ft_lstadd_back.c.o CMakeFiles/so_long.dir/libft/ft_lstadd_front.c.o CMakeFiles/so_long.dir/libft/ft_lstclear.c.o CMakeFiles/so_long.dir/libft/ft_lstdelone.c.o CMakeFiles/so_long.dir/libft/ft_lstiter.c.o CMakeFiles/so_long.dir/libft/ft_lstlast.c.o CMakeFiles/so_long.dir/libft/ft_lstmap.c.o CMakeFiles/so_long.dir/libft/ft_lstnew.c.o CMakeFiles/so_long.dir/libft/ft_lstsize.c.o CMakeFiles/so_long.dir/libft/ft_memalloc.c.o CMakeFiles/so_long.dir/libft/ft_memchr.c.o CMakeFiles/so_long.dir/libft/ft_memcmp.c.o CMakeFiles/so_long.dir/libft/ft_memcpy.c.o CMakeFiles/so_long.dir/libft/ft_memmove.c.o CMakeFiles/so_long.dir/libft/ft_memset.c.o CMakeFiles/so_long.dir/libft/ft_newstr.c.o CMakeFiles/so_long.dir/libft/ft_putchar_fd.c.o CMakeFiles/so_long.dir/libft/ft_putendl_fd.c.o CMakeFiles/so_long.dir/libft/ft_putnbr_fd.c.o CMakeFiles/so_long.dir/libft/ft_putstr_fd.c.o CMakeFiles/so_long.dir/libft/ft_split.c.o CMakeFiles/so_long.dir/libft/ft_strchr.c.o CMakeFiles/so_long.dir/libft/ft_strdup.c.o CMakeFiles/so_long.dir/libft/ft_striteri.c.o CMakeFiles/so_long.dir/libft/ft_strjoin.c.o CMakeFiles/so_long.dir/libft/ft_strlcat.c.o CMakeFiles/so_long.dir/libft/ft_strlcpy.c.o CMakeFiles/so_long.dir/libft/ft_strlen.c.o CMakeFiles/so_long.dir/libft/ft_strmapi.c.o CMakeFiles/so_long.dir/libft/ft_strncmp.c.o CMakeFiles/so_long.dir/libft/ft_strnstr.c.o CMakeFiles/so_long.dir/libft/ft_strrchr.c.o CMakeFiles/so_long.dir/libft/ft_strtrim.c.o CMakeFiles/so_long.dir/libft/ft_substr.c.o CMakeFiles/so_long.dir/libft/ft_tolower.c.o CMakeFiles/so_long.dir/libft/ft_toupper.c.o CMakeFiles/so_long.dir/mlx/font.c.o CMakeFiles/so_long.dir/mlx/mlx_init_loop.m.o CMakeFiles/so_long.dir/mlx/mlx_int_str_to_wordtab.c.o CMakeFiles/so_long.dir/mlx/mlx_mouse.m.o CMakeFiles/so_long.dir/mlx/mlx_new_image.m.o CMakeFiles/so_long.dir/mlx/mlx_new_window.m.o CMakeFiles/so_long.dir/mlx/mlx_opengl.m.o CMakeFiles/so_long.dir/mlx/mlx_png.c.o CMakeFiles/so_long.dir/mlx/mlx_rgb.c.o CMakeFiles/so_long.dir/mlx/mlx_shaders.c.o CMakeFiles/so_long.dir/mlx/mlx_xpm.c.o CMakeFiles/so_long.dir/source/so_long.c.o CMakeFiles/so_long.dir/source/map_init.c.o CMakeFiles/so_long.dir/source/map_validate.c.o CMakeFiles/so_long.dir/source/game_utils.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/so_long.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/so_long.dir/
   TARGET_FILE = so_long
-  TARGET_PDB = so_long.pdb
+  TARGET_PDB = so_long.dbg
 
 # =============================================================================
 # Target aliases.
@@ -649,14 +542,14 @@ build all: phony so_long
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/ROCMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/ROCMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake: phony
+build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake: phony
 
 
 #############################################
