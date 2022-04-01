@@ -1,6 +1,6 @@
 #include "so_long.h"
 
-void	ft_show_error(char *error_mesaage)
+void	ft_game_error(char *error_mesaage, t_game game)
 {
 	ft_putendl_fd("Error", 1);
 	ft_putendl_fd(error_mesaage, 1);
@@ -8,14 +8,16 @@ void	ft_show_error(char *error_mesaage)
 
 void	start_game(char **argv)
 {
-	init_map()
+	t_game	game;
+
+	init_map(argv[1], &game);
 }
 
 int	main(int argc, char **argv)
 {
 	if (argc != 2)
 	{
-		ft_show_error("Bad arguments");
+		ft_putendl_fd("Bad arguments", 1);
 		exit(EXIT_FAILURE);
 	}
 	start_game(argv);

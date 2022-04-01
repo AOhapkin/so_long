@@ -10,7 +10,7 @@ Makefile: NAME, all, clean, fclean, re
 Разрешенные функции: 
 - open, close, read, write, malloc, free, perror, strerror, exit;
 - все функции библиотеки `math` (-lm compiler option, man man 3 math)
-- все функции библиотеки `MiniLibX`
+- все функции библиотеки [MiniLibX](https://harm-smits.github.io/42docs/libs/minilibx/getting_started.html)
 - свои функции из библиотеки [libft](https://github.com/AOhapkin/libft)
 
 Программа принимает как параметр файл `.ber`
