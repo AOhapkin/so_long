@@ -1,3 +1,5 @@
+#include "so_long.h"
+
 void	game_exit(t_game *game)
 {
 	if (game)

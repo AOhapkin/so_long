@@ -12,6 +12,56 @@
 # define GNL_DIVIDER	'\n'
 # define GNL_MAX_FD		256
 
+# define WHITE 0x00FFFFFF
+# define BLACK 0x00000000
+# define MAINFRAME_INTERVAL 1000
+# define ANIMEFRAME_INTERVAL 5000
+
+#  define KEY_UP 13
+#  define KEY_LEFT 0
+#  define KEY_DOWN 1
+#  define KEY_RIGHT 2
+#  define KEY_RESET 15
+#  define KEY_EXIT 53
+
+# define IMG_SIZE 48
+# define IMG_PLAYER_UP "./imgs/sprites/player-up.xpm"
+# define IMG_PLAYER_LEFT "./imgs/sprites/player-left.xpm"
+# define IMG_PLAYER_DOWN "./imgs/sprites/player-down.xpm"
+# define IMG_PLAYER_RIGHT "./imgs/sprites/player-right.xpm"
+# define IMG_WALL_TL "./imgs/sprites/wall_tl.xpm"
+# define IMG_WALL_TR "./imgs/sprites/wall_tr.xpm"
+# define IMG_WALL_BL "./imgs/sprites/wall_bl.xpm"
+# define IMG_WALL_BR "./imgs/sprites/wall_br.xpm"
+# define IMG_WALL_H "./imgs/sprites/wall_h.xpm"
+# define IMG_WALL_V "./imgs/sprites/wall_v.xpm"
+# define IMG_WALL_1 "./imgs/sprites/wall_1.xpm"
+# define IMG_WALL_2 "./imgs/sprites/wall_2.xpm"
+# define IMG_WALL_3 "./imgs/sprites/wall_3.xpm"
+# define IMG_FLOOR "./imgs/sprites/floor.xpm"
+# define IMG_COLLECTIBLE_1 "./imgs/sprites/collectible_1.xpm"
+# define IMG_COLLECTIBLE_2 "./imgs/sprites/collectible_2.xpm"
+# define IMG_COLLECTIBLE_3 "./imgs/sprites/collectible_3.xpm"
+# define IMG_EXIT_OPEN "./imgs/sprites/exit_open.xpm"
+# define IMG_EXIT_CLOSE "./imgs/sprites/exit_close.xpm"
+
+# define MAP_CHARSET "01CEP"
+# define MAP_FILETYPE ".ber"
+# define ERR_MAP_REQUIRED "Require a map file"
+# define ERR_MAP_NOT_FOUND "No such map file"
+# define ERR_MAP_OPEN_FAIL "Unable to open map file"
+# define ERR_MAP_INVALID_FILETYPE "The map file is not a [.ber]"
+# define ERR_MAP_INVALID_CHARSET "The map contains forbidden characters"
+# define ERR_MAP_INVALID_COLS "The map contains columns with different sizes"
+# define ERR_MAP_INVALID_WALL "The map contains breaches in the wall"
+# define ERR_MAP_INVALID "The map is not valid"
+# define ERR_MAP_INVALID_COLLECTIBLE "The map does not contain an collectible"
+# define ERR_MAP_INVALID_EXIT "The map does not contain an exit"
+# define ERR_MAP_INVALID_PLAYER "The map must contain one player"
+# define ERR_MALLOC_FAIL "The malloc failed"
+# define MSG_GAME_END "Congratulations, you ate all the watermelons :D"
+
+
 enum e_charset
 {
 	WALL = '1',

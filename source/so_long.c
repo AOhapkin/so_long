@@ -28,10 +28,10 @@ void	start_game(char **argv)
 {
 	t_game	game;
 
-	map_init(av[1], &game);
+	map_init(argv[1], &game);
 	game.width = IMG_SIZE * game.map.cols;
 	game.height = IMG_SIZE * game.map.rows;
-	game.title = av[0];
+	game.title = argv[0];
 	game.animeframe = 0;
 	game.mlx = mlx_init();
 	game.window = mlx_new_window(game.mlx, game.width,
@@ -43,11 +43,20 @@ void	start_game(char **argv)
 
 int	main(int argc, char **argv)
 {
+	t_game	game;
+
 	if (argc != 2)
 	{
 		ft_putendl_fd("Bad arguments", 1);
 		exit(EXIT_FAILURE);
 	}
-	start_game(argv);
+	init_game(&game);
+	parse_map(argv[1], &game);
+	game.win = mlx_new_window(game.mlx, game.width * SCALE, \
+			game.height * SCALE, "so long");
+	draw_map(&game);
+	mlx_hook(game.win, 2, 0, key_hook, &game);
+	mlx_hook(game.win, 17, 0, ft_exit, &game);
+	mlx_loop(game.mlx);
 	return (0);
 }
