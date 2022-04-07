@@ -1,6 +1,6 @@
 #include "so_long.h"
 
-void	choose_player_position(t_info *info)
+void	choose_player_position(t_game *game)
 {
 	int	i;
 	int	j;
@@ -8,14 +8,14 @@ void	choose_player_position(t_info *info)
 
 	i = 0;
 	players = 0;
-	while (i < info->height)
+	while (i < game->height)
 	{
 		j = 0;
-		while (j < info-> width)
+		while (j < game-> width)
 		{
-			if (info->map[i][j] == 'P' && players > 0)
-				info->map[i][j] = '0';
-			if (info->map[i][j] == 'P' && players == 0)
+			if (game->map[i][j] == 'P' && players > 0)
+				game->map[i][j] = '0';
+			if (game->map[i][j] == 'P' && players == 0)
 				players++;
 			j++;
 		}
@@ -25,8 +25,7 @@ void	choose_player_position(t_info *info)
 
 void	ft_map_error(t_game *game, int unknown)
 {
-	if (game->exit < 1 && game->players < 1 && game->coins < 1 \
-			&& game->exit < 1)
+	if (game->exit < 1 && game->players < 1 && game->coins < 1)
 		ft_error_exit("Map error: no elements", game);
 	if (game->exit < 1)
 		ft_error_exit("Map error: there is no exit", game);
