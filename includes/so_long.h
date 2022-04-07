@@ -72,6 +72,7 @@ void	add_enemy(t_game *game);
 void	meet_enemy(t_game *game);
 void	free_enemy(void *content);
 
+int		get_next_line_fd(int fd, char **line);
 int		display_score(t_game *game);
 int		key_hook(int keycode, t_game *game);
 int		ft_exit(t_game *game);

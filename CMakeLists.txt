@@ -74,6 +74,6 @@ add_executable(so_long
         mlx/mlx_shaders.c
         mlx/mlx_xpm.c
         source/so_long.c
-        source/map_init.c
+        source/map_parse.c
         source/map_validate.c
         source/game_utils.c)
