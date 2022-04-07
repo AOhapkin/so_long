@@ -1,44 +1,35 @@
 #include "so_long.h"
 
-int	update_frames(t_game *game)
+int	ft_exit(t_game *game)
 {
-	static int	mainframe = -1;
-	static int	animeframe = -1;
+	int	i;
 
-	if (animeframe >= ANIMEFRAME_INTERVAL)
+	i = 0;
+	while (i < game->height)
 	{
-		if (game->animeframe == 1)
-			game->animeframe = -1;
-		game->animeframe++;
-		animeframe = 0;
+		free(game->map[i]);
+		i++;
 	}
-	animeframe++;
-	if (animeframe < 0)
-		draw_tilemap(game);
-	else if (mainframe >= MAINFRAME_INTERVAL)
-	{
-		draw_tilemap(game);
-		mainframe = 0;
-	}
-	mainframe++;
-	return (0);
+	free(game->map);
+	exit(0);
 }
 
-void	start_game(char **argv)
+void	ft_error_exit(char *error, t_game *game)
 {
-	t_game	game;
 
-	map_init(argv[1], &game);
-	game.width = IMG_SIZE * game.map.cols;
-	game.height = IMG_SIZE * game.map.rows;
-	game.title = argv[0];
-	game.animeframe = 0;
-	game.mlx = mlx_init();
-	game.window = mlx_new_window(game.mlx, game.width,
-								 game.height + 16, game.title);
-	hook_init(&game);
-	mlx_loop_hook(game.mlx, *update_frames, &game);
-	mlx_loop(game.mlx);
+	ft_putendl_fd(error, 1);
+	ft_exit(game);
+}
+
+static void	init_game(t_game *game)
+{
+	game->mlx = mlx_init();
+	game->coins = 0;
+	game->x = 0;
+	game->y = 0;
+	game->moves = 0;
+	game->players = 0;
+	game->exit = 0;
 }
 
 int	main(int argc, char **argv)

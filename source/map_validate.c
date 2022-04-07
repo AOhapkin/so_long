@@ -1,65 +1,97 @@
 #include "so_long.h"
 
-void	map_verify_components(t_game *game)
+void	choose_player_position(t_info *info)
 {
-	if (game->map.players != 1)
-		game_error(ERR_MAP_INVALID_PLAYER, game);
-	if (game->map.collectibles < 1)
-		game_error(ERR_MAP_INVALID_COLLECTIBLE, game);
-	if (game->map.exits < 1)
-		game_error(ERR_MAP_INVALID_EXIT, game);
-}
+	int	i;
+	int	j;
+	int	players;
 
-void	map_verify_charset(t_game *game)
-{
-	int		x;
-	int		y;
-
-	y = -1;
-	while (++y < game->map.rows)
+	i = 0;
+	players = 0;
+	while (i < info->height)
 	{
-		x = -1;
-		while (++x < game->map.cols)
+		j = 0;
+		while (j < info-> width)
 		{
-			if (ft_strchr(MAP_CHARSET, game->map.tiles[y][x]) == 0)
-				game_error(ERR_MAP_INVALID_CHARSET, game);
-			if (game->map.tiles[y][x] == PLAYER)
-			{
-				player_init(game, x, y);
-				game->map.players++;
-			}
-			if (game->map.tiles[y][x] == COLLECTIBLE)
-				game->map.collectibles++;
-			if (game->map.tiles[y][x] == EXIT)
-				game->map.exits++;
+			if (info->map[i][j] == 'P' && players > 0)
+				info->map[i][j] = '0';
+			if (info->map[i][j] == 'P' && players == 0)
+				players++;
+			j++;
 		}
+		i++;
 	}
 }
 
-void	map_verify_wall(t_game *game)
+void	ft_map_error(t_game *game, int unknown)
 {
-	int		y;
-	int		x;
-	int		cols;
-	char	*line;
+	if (game->exit < 1 && game->players < 1 && game->coins < 1 \
+			&& game->exit < 1)
+		ft_error_exit("Map error: no elements", game);
+	if (game->exit < 1)
+		ft_error_exit("Map error: there is no exit", game);
+	if (game->players < 1)
+		ft_error_exit("Map error: there is no player position", game);
+	if (game->players > 1)
+		choose_player_position(game);
+	if (game->coins < 1)
+		ft_error_exit("Map error: there are no collectibles", game);
+	if (unknown > 0)
+		ft_error_exit("Map error: there are unknown characters", game);
+}
 
-	y = -1;
-	cols = 0;
-	while (++y < game->map.rows)
+void	check_chars(t_game *game)
+{
+	int	unknown;
+	int	i;
+	int	j;
+
+	i = 0;
+	unknown = 0;
+	while (i < game->height)
 	{
-		line = game->map.tiles[y];
-		cols = ft_strlen(line);
-		if (y == 0)
-			game->map.cols = cols;
-		else if (game->map.cols != cols)
-			game_error(ERR_MAP_INVALID_COLS, game);
-		x = -1;
-		while (++x < cols)
+		j = 0;
+		while (j < game-> width)
 		{
-			if (line[x] != WALL && (y == 0 || y == game->map.rows - 1))
-				game_error(ERR_MAP_INVALID_WALL, game);
-			if (line[x] != WALL && (x == 0 || x == cols - 1))
-				game_error(ERR_MAP_INVALID_WALL, game);
+			if (game->map[i][j] == 'E')
+				game->exit++;
+			else if (game->map[i][j] == 'P')
+				game->players++;
+			else if (game->map[i][j] == 'C')
+				game->coins++;
+			else if (game->map[i][j] != '1' && game->map[i][j] != '0')
+				unknown++;
+			j++;
 		}
+		i++;
+	}
+	ft_map_error(game, unknown);
+}
+
+void	ft_is_wall(t_game *game, int i)
+{
+	int	j;
+
+	j = 0;
+	while (game->map[i][j])
+	{
+		if (game->map[i][j] != '1')
+			ft_error_exit("The map is not surrounded by walls!\n", game);
+		j++;
+	}
+}
+
+void	check_walls(t_game *game)
+{
+	int	i;
+
+	i = 0;
+	while (i < game->height)
+	{
+		if (i == 0 || i == game->height - 1)
+			ft_is_wall(game, i);
+		else if (game->map[i][0] != '1' || game->map[i][game->width - 1] != '1')
+			ft_error_exit("The map is not surrounded by walls!\n", game);
+		i++;
 	}
 }
