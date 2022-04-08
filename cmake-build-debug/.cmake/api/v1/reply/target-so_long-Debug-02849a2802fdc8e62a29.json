@@ -652,7 +652,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "source/map_init.c",
+			"path" : "source/map_parse.c",
 			"sourceGroupIndex" : 1
 		},
 		{
