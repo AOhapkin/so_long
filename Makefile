@@ -1,66 +1,46 @@
-NAME_SL		= so_long
+NAME		= so_long
 
-NAME_SLB	= so_long_bonus
+LIBFT_DIR	= libft
 
-LIB_DIR		= libft
+LIBFT		= $(LIBFT_DIR)/libft.a
 
-LIBFT		= $(LIB_DIR)/libft.a
+INCLUDES	= includes/
 
-INCLUDES_SL	= includes/
+HEADER		= includes/so_long.h
 
-HEADER_SL	= includes/so_long.h
+DIR_S		= source/
 
-HEADER_SLB	= includes/so_long_bonus.h
+C_FILES		= game_utils.c get_next_line.c image.c map_parse.c map_validate.c so_long.c
 
-DIR_SL		= srcs/
+SRCS		= $(addprefix $(DIR_S), $(C_FILES))
 
-DIR_SLB		= bonus/
-
-FILES_SL	= game_utils.c\
- 				get_next_line.c\
- 				image.c\
- 				map_parse.c\
- 				map_validate.c\
- 				so_long.c\		
-
-SRCS_SL		= $(addprefix $(DIR_SL), $(FILES_SL))
-
-SRCS_SLB	= $(addprefix $(DIR_SLB), $(FILES_SLB))
-
-OBJS_SL		= $(SRCS_SL:%.c=%.o)
-
-OBJS_SLB	= $(SRCS_SLB:%.c=%.o)
+OBJS		= $(SRCS:%.c=%.o)
 
 CC 			= cc
 
 CFLAGS		= -Wall -Wextra -Werror
 
-MLX_FLAGS = -L minilibx_opengl_20191021 -framework OpenGL -framework AppKit
+MLX_FLAGS	= -L minilibx_opengl_20191021 -framework OpenGL -framework AppKit
 
-.PHONY: 	all libft mlx clean fclean re bonus
+.PHONY: 	all libft mlx clean fclean re
 
-all:		libft $(NAME_SL)
+all:		libft $(NAME)
 
 libft:
-			make -C $(LIB_DIR)
+			make -C $(LIBFT_DIR)
 
-bonus:
-			@make NAME_SL="$(NAME_SLB)" \
-			OBJS_SL="$(OBJS_SLB)" \
-			HEADER_SL="$(HEADER_SLB)" all
+$(NAME):	OBJS
+			$(CC) $(CFLAGS) $(MLX_FLAGS) $(OBJS) $(LIBFT) minilibx_opengl_20191021/libmlx.a -o $@
 
-$(NAME_SL):	$(OBJS_SL)
-			$(CC) $(CFLAGS) $(MLX_FLAGS) $(OBJS_SL) $(LIBFT) minilibx_opengl_20191021/libmlx.a -o $@
-
-%.o:		%.c $(LIBFT) $(HEADER_SL) 
-			$(CC) $(CFLAGS) -I $(INCLUDES_SL) -I minilibx_opengl_20191021 -c $< -o $@
+%.o:		%.c $(LIBFT) HEADER
+			$(CC) $(CFLAGS) -I $(INCLUDES) -I minilibx_opengl_20191021 -c $< -o $@
 
 clean	:
-			$(RM) $(OBJS_SL) $(OBJS_SLB)
-			make -C $(LIB_DIR) clean
+			$(RM) $(OBJS)
+			make -C $(LIBFT_DIR) clean
 				
 fclean	:	clean
-			rm -r $(NAME_SL) $(NAME_SLB)
-			make -C $(LIB_DIR) fclean
+			rm -r $(NAME)
+			make -C $(LIBFT_DIR) fclean
 
 re		:	fclean all
