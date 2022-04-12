@@ -2,36 +2,32 @@
 # define SO_LONG_H
 
 # include <stdlib.h>
-# include <fcntl.h>
 # include <unistd.h>
+# include <fcntl.h>
+# include <mlx.h>
 # include <stdio.h>
-# include "mlx.h"
-# include "libft.h"
+# include "../libft/libft.h"
 
-# define GNL_BUFFER_SIZE	42
-# define GNL_DIVIDER	'\n'
-# define GNL_MAX_FD		256
+# define SCALE 64
+# define MAP_FILE_TYPE ".ber"
 
-# define SCALE 48
-# define WALL "./img/bush.xpm"
-# define FLOOR "./img/grass.xpm"
-# define COIN "./img/carrot.xpm"
-# define PLAYER1 "./img/sheep1.xpm"
-# define PLAYER2 "./img/sheep2.xpm"
-# define PLAYER3 "./img/sheep3.xpm"
-# define PLAYER4 "./img/sheep4.xpm"
-# define ENEMY1 "./img/wolf1.xpm"
-# define ENEMY2 "./img/wolf2.xpm"
-# define ENEMY3 "./img/wolf3.xpm"
-# define EXIT "./img/exit.xpm"
-# define KEYUP 13
-# define KEYDOWN 1
-# define KEYRIGHT 2
-# define KEYLEFT 0
-# define KEYD 124
-# define KEYA 123
-# define KEYW 126
-# define KEYS 125
+# define WALL_IMG "./img/wall.xpm"
+# define FLOOR_IMG "./img/floor.xpm"
+# define COIN_IMG "./img/fish.xpm"
+# define PLAYER_IMG "./img/player.xpm"
+# define EXIT_IMG "./img/house.xpm"
+
+# define KEY_UP 13
+# define KEY_LEFT 0
+# define KEY_DOWN 1
+# define KEY_RIGHT 2
+
+# define KEY_W 126
+# define KEY_A 123
+# define KEY_S 125
+# define KEY_D 124
+
+# define KEY_ESC 53
 
 typedef struct s_game
 {
@@ -41,41 +37,26 @@ typedef struct s_game
 	int			width;
 	int			height;
 	char		**map;
-	int			moves;
+	int			moves_counter;
 	int			coins;
 	int			players;
-	int			enemy;
 	int			exit;
 	int			x;
 	int			y;
-	t_list		*enemies;
 }	t_game;
 
-typedef struct s_enemy
-{
-	int				x;
-	int				y;
-	int				flag;
-}					t_enemy;
-
+void	init_game(t_game *game);
+void	validate_chars(t_game *game);
+void	validate_walls(t_game *game);
 void	parse_map(char *argv, t_game *game);
 void	read_file(char *argv, t_game *game);
-void	put_image(int x, int y, char c, t_game *game);
-void	draw_map(t_game *game);
+void	ft_put_map(t_game *game);
+void	ft_game_error(char *error, t_game *game);
 void	put_xpm_image(int x, int y, const char *file, t_game *game);
-void	ft_error_exit(char *error, t_game *game);
-void	ft_map_eror(t_game *game, int exit, int unknown);
-void	check_chars(t_game *game);
-void	choose_player_position(t_game *game);
-void	check_walls(t_game *game);
-void	add_enemy(t_game *game);
-void	meet_enemy(t_game *game);
-void	free_enemy(void *content);
 
 int		get_next_line_fd(int fd, char **line);
 int		display_score(t_game *game);
 int		key_hook(int keycode, t_game *game);
-int		ft_exit(t_game *game);
-int		animation(t_game *game);
+int		ft_free_exit(t_game *game);
 
 #endif

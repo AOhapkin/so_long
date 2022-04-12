@@ -25,21 +25,19 @@ void	choose_player_position(t_game *game)
 
 void	ft_map_error(t_game *game, int unknown)
 {
-	if (game->exit < 1 && game->players < 1 && game->coins < 1)
-		ft_error_exit("Map error: no elements", game);
 	if (game->exit < 1)
-		ft_error_exit("Map error: there is no exit", game);
+		ft_game_error("There is no exit on the map", game);
 	if (game->players < 1)
-		ft_error_exit("Map error: there is no player position", game);
+		ft_game_error("There is no player on the map", game);
 	if (game->players > 1)
-		choose_player_position(game);
+		ft_game_error("There are too many players on the map", game);
 	if (game->coins < 1)
-		ft_error_exit("Map error: there are no collectibles", game);
+		ft_game_error("There are no collectibles on the map", game);
 	if (unknown > 0)
-		ft_error_exit("Map error: there are unknown characters", game);
+		ft_game_error("There are invalid chars on the map", game);
 }
 
-void	check_chars(t_game *game)
+void	validate_chars(t_game *game)
 {
 	int	unknown;
 	int	i;
@@ -67,20 +65,20 @@ void	check_chars(t_game *game)
 	ft_map_error(game, unknown);
 }
 
-void	ft_is_wall(t_game *game, int i)
+void	ft_is_wall(t_game *game, int line_number)
 {
 	int	j;
 
 	j = 0;
-	while (game->map[i][j])
+	while (game->map[line_number][j])
 	{
-		if (game->map[i][j] != '1')
-			ft_error_exit("The map is not surrounded by walls!\n", game);
+		if (game->map[line_number][j] != '1')
+			ft_game_error("There must be walls on the edge of map", game);
 		j++;
 	}
 }
 
-void	check_walls(t_game *game)
+void	validate_walls(t_game *game)
 {
 	int	i;
 
@@ -90,7 +88,7 @@ void	check_walls(t_game *game)
 		if (i == 0 || i == game->height - 1)
 			ft_is_wall(game, i);
 		else if (game->map[i][0] != '1' || game->map[i][game->width - 1] != '1')
-			ft_error_exit("The map is not surrounded by walls!\n", game);
+			ft_game_error("There must be walls on the edge of map", game);
 		i++;
 	}
 }

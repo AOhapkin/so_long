@@ -29,10 +29,10 @@ all:		libft $(NAME)
 libft:
 			make -C $(LIBFT_DIR)
 
-$(NAME):	OBJS
+$(NAME):	$(OBJS)
 			$(CC) $(CFLAGS) $(MLX_FLAGS) $(OBJS) $(LIBFT) minilibx_opengl_20191021/libmlx.a -o $@
 
-%.o:		%.c $(LIBFT) HEADER
+%.o:	%.c $(LIBFT) $(HEADER)
 			$(CC) $(CFLAGS) -I $(INCLUDES) -I minilibx_opengl_20191021 -c $< -o $@
 
 clean	:

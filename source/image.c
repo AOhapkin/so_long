@@ -13,12 +13,12 @@ void	put_ground(int x, int y, char c, t_game *game)
 {
 	if (c == '1')
 	{
-		put_xpm_image(x, y, FLOOR, game);
-		put_xpm_image(x, y, WALL, game);
+		put_xpm_image(x, y, FLOOR_IMG, game);
+		put_xpm_image(x, y, WALL_IMG, game);
 	}
 	else if (c == '0')
 	{
-		put_xpm_image(x, y, FLOOR, game);
+		put_xpm_image(x, y, FLOOR_IMG, game);
 	}
 }
 
@@ -27,25 +27,25 @@ void	put_image(int x, int y, char c, t_game *game)
 	put_ground(x, y, c, game);
 	if (c == 'C')
 	{
-		put_xpm_image(x, y, FLOOR, game);
-		put_xpm_image(x, y, COIN, game);
+		put_xpm_image(x, y, FLOOR_IMG, game);
+		put_xpm_image(x, y, COIN_IMG, game);
 	}
 	else if (c == 'P')
 	{
 		game->x = x / SCALE;
 		game->y = y / SCALE;
-		put_xpm_image(x, y, FLOOR, game);
-		put_xpm_image(x, y, PLAYER1, game);
+		put_xpm_image(x, y, FLOOR_IMG, game);
+		put_xpm_image(x, y, PLAYER_IMG, game);
 		game->map[game->y][game->x] = '0';
 	}
 	else if (c == 'E')
 	{
-		put_xpm_image(x, y, FLOOR, game);
-		put_xpm_image(x, y, EXIT, game);
+		put_xpm_image(x, y, FLOOR_IMG, game);
+		put_xpm_image(x, y, EXIT_IMG, game);
 	}
 }
 
-void	draw_map(t_game *game)
+void	ft_put_map(t_game *game)
 {
 	int	i;
 	int	j;
