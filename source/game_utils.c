@@ -24,7 +24,7 @@ void	init_game(t_game *game)
 	game->exit = 0;
 }
 
-void ft_print_moves_counter(int counter)
+void	ft_print_moves_counter(int counter)
 {
 	ft_putstr_fd("Movements: ", 1);
 	ft_putnbr_fd((counter + 1), 1);
