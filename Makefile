@@ -1,46 +1,51 @@
-NAME		= so_long
+NAME = so_long
 
-LIBFT_DIR	= libft
-
-LIBFT		= $(LIBFT_DIR)/libft.a
-
-INCLUDES	= includes/
-
-HEADER		= includes/so_long.h
+INCLUDES = includes
+HEADER = $(INCLUDES)/so_long.h
 
 DIR_S		= source/
-
+DIR_O		= objects/
 C_FILES		= game_utils.c get_next_line.c image.c map_parse.c map_validate.c so_long.c
+SRCS = $(addprefix $(DIR_S),$(C_FILES))
+OBJS = $(addprefix $(DIR_O),$(C_FILES:.c=.o))
 
-SRCS		= $(addprefix $(DIR_S), $(C_FILES))
+#libft
+LIBFT_DIR = libft
+LIBFT_INCLUDES = $(LIBFT_DIR)/includes
+LIBFT_HEADER = $(LIBFT_INCLUDES)/libft.h
+LIBFT = $(LIBFT_DIR)/libft.a
 
-OBJS		= $(SRCS:%.c=%.o)
+#MLX
+MLX_DIR	= minilibx_opengl_20191021
+MLX	= $(MLX_DIR)/libmlx.a
 
-CC 			= cc
+#flags
+CC = cc
+CFLAGS = -Wall -Wextra -Werror
+MLX_FLAGS = -L minilibx_opengl_20191021 -framework OpenGL -framework AppKit
 
-CFLAGS		= -Wall -Wextra -Werror
+.PHONY: all libft clean fclean re
 
-MLX_FLAGS	= -L minilibx_opengl_20191021 -framework OpenGL -framework AppKit
-
-.PHONY: 	all libft mlx clean fclean re
-
-all:		libft $(NAME)
+all: libft $(DIR_O) $(NAME)
 
 libft:
-			make -C $(LIBFT_DIR)
+	make -C $(LIBFT_DIR)
 
-$(NAME):	$(OBJS)
-			$(CC) $(CFLAGS) $(MLX_FLAGS) $(OBJS) $(LIBFT) minilibx_opengl_20191021/libmlx.a -o $@
+$(NAME): $(OBJS)
+	$(CC) $(CFLAGS) $(MLX_FLAGS) $(OBJS) $(LIBFT) $(MLX) -o $@
 
-%.o:	%.c $(LIBFT) $(HEADER)
-			$(CC) $(CFLAGS) -I $(INCLUDES) -I minilibx_opengl_20191021 -c $< -o $@
+$(DIR_O)%.o: $(DIR_S)%.c $(LIBFT) $(HEADER)
+	$(CC) $(CFLAGS) -I $(INCLUDES) -I $(LIBFT_INCLUDES) -I $(MLX_DIR) -c $< -o $@
 
-clean	:
-			$(RM) $(OBJS)
-			make -C $(LIBFT_DIR) clean
-				
-fclean	:	clean
-			rm -r $(NAME)
-			make -C $(LIBFT_DIR) fclean
+$(DIR_O):
+	mkdir -p $(DIR_O)
 
-re		:	fclean all
+clean:
+	rm -rf $(DIR_O)
+	make -C $(LIBFT_DIR) clean
+
+fclean:	clean
+	rm -r $(NAME)
+	make -C $(LIBFT_DIR) fclean
+
+re:	fclean all

@@ -6,7 +6,7 @@
 # include <fcntl.h>
 # include <mlx.h>
 # include <stdio.h>
-# include "../libft/libft.h"
+# include "libft.h"
 
 # define SCALE 64
 # define MAP_FILE_TYPE ".ber"
@@ -52,11 +52,9 @@ void	parse_map(char *argv, t_game *game);
 void	read_file(char *argv, t_game *game);
 void	ft_put_map(t_game *game);
 void	ft_game_error(char *error, t_game *game);
-void	put_xpm_image(int x, int y, const char *file, t_game *game);
-
-int		get_next_line_fd(int fd, char **line);
-int		display_score(t_game *game);
-int		key_hook(int keycode, t_game *game);
 int		ft_free_exit(t_game *game);
+void	put_xpm_image(int x, int y, const char *file, t_game *game);
+int		get_next_line_fd(int fd, char **line);
+int		key_hook(int keycode, t_game *game);
 
 #endif
