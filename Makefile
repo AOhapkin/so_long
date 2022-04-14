@@ -28,7 +28,7 @@ LIBFT_HEADER = $(LIBFT_INCLUDES)/libft.h
 LIBFT = $(LIBFT_DIR)/libft.a
 
 #MLX
-MLX_DIR	= minilibx_opengl_20191021
+MLX_DIR	= mlx
 MLX	= $(MLX_DIR)/libmlx.a
 
 #flags
@@ -38,12 +38,16 @@ MLX_FLAGS = -L minilibx_opengl_20191021 -framework OpenGL -framework AppKit
 
 .PHONY: all libft clean fclean re
 
-all: libft $(DIR_O) $(NAME)
+all: mlx libft $(DIR_O) $(NAME)
 
 libft:
 	make -C $(LIBFT_DIR)
 
+mlx:
+	make -C $(MLX_DIR)
+
 $(NAME): $(OBJS)
+	make -C $(MLX_DIR)
 	$(CC) $(CFLAGS) $(MLX_FLAGS) $(OBJS) $(LIBFT) $(MLX) -o $@
 
 $(DIR_O)%.o: $(DIR_S)%.c $(LIBFT) $(HEADER)
@@ -55,6 +59,7 @@ $(DIR_O):
 clean:
 	rm -rf $(DIR_O)
 	make -C $(LIBFT_DIR) clean
+	make -C $(MLX_DIR) clean
 
 fclean:	clean
 	rm -r $(NAME)
