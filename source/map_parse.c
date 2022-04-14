@@ -82,6 +82,10 @@ void	parse_map(char *argv, t_game *game)
 	read_file(argv, game);
 	height = 0;
 	game->width = ft_strlen(game->map[height]);
+	if (game->width == 0)
+		ft_game_error("Map is empty.", game);
+	if (game->width <= 3 || game->height <= 2)
+		ft_game_error("Map is too small.", game);
 	while (height < game->height)
 	{
 		if (game->width != (int)ft_strlen(game->map[height]))
